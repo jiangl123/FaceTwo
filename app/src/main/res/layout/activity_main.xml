@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.liu04.facetest.MainActivity">
+    <Button
+        android:id="@+id/btn_faceMatch"
+        android:layout_margin="10dp"
+        android:onClick="clickToActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入人脸对比"/>
+    <Button
+        android:id="@+id/btn_faceManage"
+        android:layout_margin="10dp"
+        android:onClick="clickToActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入人脸管理"/>
+    <Button
+        android:id="@+id/btn_identify"
+        android:layout_margin="10dp"
+        android:onClick="clickToActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入人脸识别"/>
+    <Button
+        android:id="@+id/btn_detect"
+        android:layout_margin="10dp"
+        android:onClick="clickToActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入人脸检测"/>
+</LinearLayout>

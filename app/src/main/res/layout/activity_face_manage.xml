@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.liu04.facetest.activity.FaceManageActivity">
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:onClick="clickManage"
+        android:layout_height="wrap_content"
+        android:text="人脸注册"
+        tools:ignore="OnClick"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:onClick="clickManage"
+        android:layout_height="wrap_content"
+        android:text="人脸更新"
+        tools:ignore="OnClick"/>
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:onClick="clickManage"
+        android:layout_height="wrap_content"
+        android:text="人脸删除"
+        tools:ignore="OnClick"/>
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:onClick="clickManage"
+        android:layout_height="wrap_content"
+        android:text="人脸查询"
+        tools:ignore="OnClick"/>
+</LinearLayout>
